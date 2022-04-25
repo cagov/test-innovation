@@ -1,6 +1,14 @@
 const cagovBuildSystem = require("@cagov/11ty-build-system");
 // const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+//Replaces content to rendered
+const replaceContent = (item, searchValue, replaceValue) => {
+  item.template.frontMatter.content = item.template.frontMatter.content.replace(
+    searchValue,
+    replaceValue
+  );
+};
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.htmlTemplateEngine = "njk";
   const wordpressImagePath = "img/wordpress";
@@ -68,6 +76,16 @@ module.exports = function (eleventyConfig) {
             item.data.previewimage =
               wordpressImagePath + "/" + featuredMedia.path;
           }
+
+          jsonData.media
+            .filter((x) => x.source_url_match)
+            .forEach((m) => {
+              replaceContent(
+                item,
+                new RegExp(m.source_url, "g"),
+                "/" + wordpressImagePath + "/" + m.path
+              );
+            });
         }
       }
 
@@ -91,28 +109,28 @@ module.exports = function (eleventyConfig) {
         item.data.meta = jsonData.excerpt;
         item.data.description = jsonData.excerpt;
 
+        item.template.frontMatter.content = item.template.frontMatter.content.replace('loading="lazy" class="cagov-featured-image','class="cagov-featured-image');
+
         if (jsonData.media) {
           const featuredMedia = jsonData.media.find((x) => x.featured);
           if (featuredMedia) {
             item.data.previewimage =
               wordpressImagePath + "/" + featuredMedia.path;
           }
+
+          jsonData.media
+            .filter((x) => x.source_url_match)
+            .forEach((m) => {
+              replaceContent(
+                item,
+                new RegExp(m.source_url, "g"),
+                "/" + wordpressImagePath + "/" + m.path
+              );
+            });
         }
+
+        item.template.frontMatter.content = item.template.frontMatter.content.replace('src="/img/wordpress/2022/04/Group-97-1024x649.png"','src="/img/Group-97-1024x649.webp"');
       }
-    });
-
-    eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
-      //outputPath === false means serverless templates
-      if (!outputPath || outputPath.endsWith(".html")) {
-        // Replace Wordpress media paths with correct 11ty output path.
-        const regexPattern = `http.+?pantheonsite\.io/${config.build.upload_folder}`;
-        html = html.replace(new RegExp(regexPattern, 'g'), "/media/");
-
-        // need to take lazy loading off featured images because can't do it in WordPress without theme modification
-        html = html.replace('loading="lazy" class="cagov-featured-image','class="cagov-featured-image');
-      }
-
-      return html;
     });
 
     return output;
@@ -134,6 +152,9 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
+    return 'hello';
+    console.log(url)
+    console.log(domain)
     try {
       
       let host = config.build.canonical_url.split("//"); // TEMP Cheat to get https
@@ -142,7 +163,7 @@ module.exports = function (eleventyConfig) {
       config.build.replace_urls.map((item) => {
         changedUrl = changedUrl.replace(item, host[0] + "//" + domain);
       });
-      changedUrl = changedUrl.replace('live-digital-ca-gov.pantheonsite.io', host[0] + "//" + 'development.digital.ca.gov');
+      changedUrl = changedUrl.replace('test-digital-ca-gov.pantheonsite.io', host[0] + "//" + 'development.digital.ca.gov');
       return changedUrl;
     } catch {
       return url;
