@@ -148,9 +148,6 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter("changeDomain", function (url, domain) {
-    return 'hello';
-    console.log(url)
-    console.log(domain)
     try {
       
       let host = config.build.canonical_url.split("//"); // TEMP Cheat to get https
