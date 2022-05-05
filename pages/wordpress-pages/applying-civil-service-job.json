@@ -35,6 +35,39 @@
     "meta": [],
     "categories": [],
     "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
+      },
+      "site_name": "digital.ca.gov",
+      "site_description": "Office of Digital Innovation",
+      "site_url": "https://test-digital-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/join-us/applying-civil-service-job/",
+      "page_title": "Applying for a civil service job",
+      "page_description": "Office of Digital Innovation",
+      "page_social_image_url": "",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Applying for a civil service job",
+      "meta_description": "Office of Digital Innovation",
+      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/join-us/applying-civil-service-job/",
+      "open_graph_title": "Applying for a civil service job",
+      "open_graph_description": "Office of Digital Innovation",
+      "twitter_title": "Applying for a civil service job",
+      "twitter_description": "Office of Digital Innovation"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/join-us/applying-civil-service-job/",
     "media": [
       {
