@@ -32,7 +32,10 @@
     "sticky": false,
     "template": "",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [
       "Procurement"
     ],
