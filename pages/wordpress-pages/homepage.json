@@ -38,6 +38,39 @@
     },
     "categories": [],
     "tags": [],
+    "design_system_fields": {
+      "template": "landing"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
+      },
+      "site_name": "digital.ca.gov",
+      "site_description": "Office of Digital Innovation",
+      "site_url": "https://test-digital-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/",
+      "page_title": "Office of Digital Innovation",
+      "page_description": "Office of Digital Innovation",
+      "page_social_image_url": "",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Office of Digital Innovation",
+      "meta_description": "Office of Digital Innovation",
+      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/",
+      "open_graph_title": "Office of Digital Innovation",
+      "open_graph_description": "Office of Digital Innovation",
+      "twitter_title": "Office of Digital Innovation",
+      "twitter_description": "Office of Digital Innovation"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/",
     "media": [
       {
