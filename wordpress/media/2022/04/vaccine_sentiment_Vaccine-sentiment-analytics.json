@@ -27,7 +27,10 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "description": "<p class=\"attachment\"><a href='https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/vaccine_sentiment_Vaccine-sentiment-analytics.png'><img width=\"576\" height=\"383\" src=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/vaccine_sentiment_Vaccine-sentiment-analytics.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
     "caption": "",

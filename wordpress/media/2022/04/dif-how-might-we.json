@@ -28,7 +28,10 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "_stopmodifiedupdate": false,
+      "_modified_date": ""
+    },
     "categories": [],
     "description": "<p class=\"attachment\"><a href='https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we.jpg'><img width=\"576\" height=\"330\" src=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we-576x330.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we-576x330.jpg 576w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we-1024x586.jpg 1024w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we-768x440.jpg 768w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/dif-how-might-we.jpg 1104w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
