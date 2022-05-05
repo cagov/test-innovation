@@ -32,45 +32,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": {
-      "_stopmodifiedupdate": false,
-      "_modified_date": ""
-    },
+    "meta": [],
     "categories": [],
     "tags": [],
-    "design_system_fields": {
-      "template": "page"
-    },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
-      },
-      "site_name": "digital.ca.gov",
-      "site_description": "Office of Digital Innovation",
-      "site_url": "https://test-digital-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/contact-us/",
-      "page_title": "Contact us",
-      "page_description": "Office of Digital Innovation",
-      "page_social_image_url": "",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Contact us",
-      "meta_description": "Get in touch with ODI, including our talent team.",
-      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/contact-us/",
-      "open_graph_title": "Contact us",
-      "open_graph_description": "Office of Digital Innovation",
-      "twitter_title": "Contact us",
-      "twitter_description": "Office of Digital Innovation"
-    },
-    "headless_categories": [],
-    "headless_tags": [],
-    "headless_publishing": [],
-    "headless_preview": [],
     "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/contact-us/"
   }
 }
