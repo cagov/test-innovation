@@ -32,10 +32,7 @@
     "sticky": false,
     "template": "",
     "format": "standard",
-    "meta": {
-      "_stopmodifiedupdate": false,
-      "_modified_date": ""
-    },
+    "meta": [],
     "categories": [
       "Procurement"
     ],
@@ -45,9 +42,6 @@
       "RFI",
       "Technology Digital and Data"
     ],
-    "design_system_fields": {
-      "template": "post"
-    },
     "event": null,
     "custom_post_date": "",
     "meta_": {
@@ -56,98 +50,6 @@
       "custom_post_date": "",
       "custom_post_location": ""
     },
-    "og_meta": {
-      "editor": {
-        "platform": "WordPress",
-        "plugin": "autodescription",
-        "plugin_name": "The SEO Framework",
-        "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
-      },
-      "site_name": "digital.ca.gov",
-      "site_description": "Office of Digital Innovation",
-      "site_url": "https://test-digital-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2021/10/13/procurement-as-a-lever-for-better-government-services/",
-      "page_title": "Procurement as a lever for better government services",
-      "page_description": "Part of ODI’s mandate is to “rethink and improve how the state buys digital services...\"",
-      "page_social_image_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/Frame-46.png",
-      "page_social_image_width": 1200,
-      "page_social_image_height": 630,
-      "page_social_image_alt": "",
-      "meta_title": "Procurement as a lever for better government services",
-      "meta_description": "Part of ODI’s mandate is to “rethink and improve how the state buys digital services...\"",
-      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2021/10/13/procurement-as-a-lever-for-better-government-services/",
-      "open_graph_title": "Procurement as a lever for better government services",
-      "open_graph_description": "Part of ODI’s mandate is to “rethink and improve how the state buys digital services...\"",
-      "twitter_title": "Procurement as a lever for better government services",
-      "twitter_description": "Part of ODI’s mandate is to “rethink and improve how the state buys digital services...\""
-    },
-    "headless_categories": [
-      {
-        "term_id": 21,
-        "name": "Procurement",
-        "slug": "procurement",
-        "term_group": 0,
-        "term_taxonomy_id": 21,
-        "taxonomy": "category",
-        "description": "",
-        "parent": 0,
-        "filter": "raw",
-        "cat_ID": 21,
-        "category_description": "",
-        "cat_name": "Procurement",
-        "category_nicename": "procurement",
-        "category_parent": 0
-      }
-    ],
-    "headless_tags": [
-      {
-        "term_id": 24,
-        "name": "MSA",
-        "slug": "msa",
-        "term_group": 0,
-        "term_taxonomy_id": 24,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 22,
-        "name": "Procurement",
-        "slug": "procurement",
-        "term_group": 0,
-        "term_taxonomy_id": 22,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 23,
-        "name": "RFI",
-        "slug": "rfi",
-        "term_group": 0,
-        "term_taxonomy_id": 23,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 25,
-        "name": "Technology Digital and Data",
-        "slug": "technology-digital-and-data",
-        "term_group": 0,
-        "term_taxonomy_id": 25,
-        "taxonomy": "post_tag",
-        "description": "",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
-    "headless_publishing": [],
-    "headless_preview": [],
     "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/2021/10/13/procurement-as-a-lever-for-better-government-services/",
     "media": [
       {
