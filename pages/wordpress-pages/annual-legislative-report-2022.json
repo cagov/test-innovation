@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2022-05-25T21:07:26",
+    "updated_date": "2022-05-25T21:07:27",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-digital-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/digital.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 479,
+    "date": "2022-05-25T14:07:26",
+    "date_gmt": "2022-05-25T21:07:26",
+    "guid": "https://test-digital-ca-gov.pantheonsite.io/?page_id=479",
+    "modified": "2022-05-25T14:07:27",
+    "modified_gmt": "2022-05-25T21:07:27",
+    "slug": "annual-legislative-report-2022",
+    "status": "publish",
+    "type": "page",
+    "link": "https://test-digital-ca-gov.pantheonsite.io/annual-legislative-report-2022/",
+    "title": "Annual Legislative Report: July 1, 2020-July 1, 2021",
+    "excerpt": "<p>Executive Summary The Office of Digital Innovation (ODI) entered FY 2020-2021 with a continued focus on supporting the state’s COVID-19 response. As in the prior fiscal year, the majority of ODI’s staff and resources were devoted to the regular, real-time updating and expansion of covid19.ca.gov, the state’s one-stop shop for COVID-19 information, policy guidance and &#8230; <a title=\"Annual Legislative Report: July 1, 2020-July 1, 2021\" class=\"read-more\" href=\"https://test-digital-ca-gov.pantheonsite.io/annual-legislative-report-2022/\" aria-label=\"More on Annual Legislative Report: July 1, 2020-July 1, 2021\">Read more</a></p>\n",
+    "author": "Michael Sullivan",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
+      },
+      "site_name": "digital.ca.gov",
+      "site_description": "Office of Digital Innovation",
+      "site_url": "https://test-digital-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/annual-legislative-report-2022/",
+      "page_title": "Annual Legislative Report: July 1, 2020-July 1, 2021",
+      "page_description": "Office of Digital Innovation",
+      "page_social_image_url": "",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Annual Legislative Report: July 1, 2020-July 1, 2021",
+      "meta_description": "Office of Digital Innovation",
+      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/annual-legislative-report-2022/",
+      "open_graph_title": "Annual Legislative Report: July 1, 2020-July 1, 2021",
+      "open_graph_description": "Office of Digital Innovation",
+      "twitter_title": "Annual Legislative Report: July 1, 2020-July 1, 2021",
+      "twitter_description": "Office of Digital Innovation"
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/annual-legislative-report-2022/"
+  }
+}
