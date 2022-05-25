@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-16T19:26:12",
-    "updated_date": "2022-04-28T00:08:11",
+    "updated_date": "2022-05-25T21:21:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-03-16T12:26:12",
     "date_gmt": "2022-03-16T19:26:12",
     "guid": "https://test-digital-ca-gov.pantheonsite.io/?page_id=244",
-    "modified": "2022-04-27T17:08:11",
-    "modified_gmt": "2022-04-28T00:08:11",
+    "modified": "2022-05-25T14:21:50",
+    "modified_gmt": "2022-05-25T21:21:50",
     "slug": "staff-and-alumni",
     "status": "publish",
     "type": "page",
@@ -31,12 +31,14 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
+    "template": "",
     "meta": [],
     "categories": [],
-    "tags": [],
+    "tags": [
+      "do-not-crawl"
+    ],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "page"
     },
     "og_meta": {
       "editor": {
@@ -65,7 +67,19 @@
       "twitter_description": "Office of Digital Innovation"
     },
     "headless_categories": [],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 38,
+        "name": "do-not-crawl",
+        "slug": "do-not-crawl",
+        "term_group": 0,
+        "term_taxonomy_id": 38,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/who-we-are/staff-and-alumni/",
