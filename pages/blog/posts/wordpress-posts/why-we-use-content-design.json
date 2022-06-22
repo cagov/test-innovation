@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-04-21T20:54:32",
-    "updated_date": "2022-05-06T22:59:18",
+    "created_date": "2022-06-22T16:36:01",
+    "updated_date": "2022-06-22T16:36:02",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,19 +13,19 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 408,
-    "date": "2022-04-21T13:54:32",
-    "date_gmt": "2022-04-21T20:54:32",
-    "guid": "https://test-digital-ca-gov.pantheonsite.io/?p=408",
-    "modified": "2022-05-06T15:59:18",
-    "modified_gmt": "2022-05-06T22:59:18",
-    "slug": "deputy-director-appointments-strengthen-odi-mission",
+    "id": 636,
+    "date": "2022-06-22T09:36:01",
+    "date_gmt": "2022-06-22T16:36:01",
+    "guid": "https://test-digital-ca-gov.pantheonsite.io/?p=636",
+    "modified": "2022-06-22T09:36:02",
+    "modified_gmt": "2022-06-22T16:36:02",
+    "slug": "why-we-use-content-design",
     "status": "publish",
     "type": "post",
-    "link": "https://test-digital-ca-gov.pantheonsite.io/2022/04/21/deputy-director-appointments-strengthen-odi-mission/",
-    "title": "Deputy director appointments strengthen ODI mission",
-    "excerpt": "<p>We’re excited to congratulate Jeffery Marino and JP Petrucione on their new roles at the Office of Digital Innovation (ODI).</p>\n",
-    "author": "Michael Sullivan",
+    "link": "https://test-digital-ca-gov.pantheonsite.io/2022/06/22/why-we-use-content-design/",
+    "title": "Why we use content design",
+    "excerpt": "<p>We talk about content design a lot. Here’s what it is and why we use it.</p>\n",
+    "author": "Peggy Gartin &amp; Michael Sullivan",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -59,20 +59,20 @@
       "site_name": "digital.ca.gov",
       "site_description": "Office of Digital Innovation",
       "site_url": "https://test-digital-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2022/04/21/deputy-director-appointments-strengthen-odi-mission/",
-      "page_title": "Deputy director appointments strengthen ODI mission",
-      "page_description": "We’re excited to congratulate Jeffery Marino and JP Petrucione on their new roles at the Office of Digital Innovation (ODI).",
+      "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2022/06/22/why-we-use-content-design/",
+      "page_title": "Why we use content design",
+      "page_description": "We talk about content design a lot. Here’s what it is and why we use it.",
       "page_social_image_url": "",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Deputy director appointments strengthen ODI mission",
-      "meta_description": "We’re excited to congratulate Jeffery Marino and JP Petrucione on their new roles at the Office of Digital Innovation (ODI).",
-      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2022/04/21/deputy-director-appointments-strengthen-odi-mission/",
-      "open_graph_title": "Deputy director appointments strengthen ODI mission",
-      "open_graph_description": "We’re excited to congratulate Jeffery Marino and JP Petrucione on their new roles at the Office of Digital Innovation (ODI).",
-      "twitter_title": "Deputy director appointments strengthen ODI mission",
-      "twitter_description": "We’re excited to congratulate Jeffery Marino and JP Petrucione on their new roles at the Office of Digital Innovation (ODI)."
+      "meta_title": "Why we use content design",
+      "meta_description": "We talk about content design a lot at the California Office of Digital Innovation. Here’s what it is and why we use it.",
+      "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/2022/06/22/why-we-use-content-design/",
+      "open_graph_title": "Why we use content design",
+      "open_graph_description": "We talk about content design a lot. Here’s what it is and why we use it.",
+      "twitter_title": "Why we use content design",
+      "twitter_description": "We talk about content design a lot. Here’s what it is and why we use it."
     },
     "headless_categories": [
       {
@@ -95,6 +95,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/2022/04/21/deputy-director-appointments-strengthen-odi-mission/"
+    "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/2022/06/22/why-we-use-content-design/"
   }
 }
