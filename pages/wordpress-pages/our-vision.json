@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-16T19:24:21",
-    "updated_date": "2022-06-09T16:06:07",
+    "updated_date": "2022-07-12T16:57:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-03-16T12:24:21",
     "date_gmt": "2022-03-16T19:24:21",
     "guid": "https://test-digital-ca-gov.pantheonsite.io/?page_id=240",
-    "modified": "2022-06-09T09:06:07",
-    "modified_gmt": "2022-06-09T16:06:07",
+    "modified": "2022-07-12T09:57:08",
+    "modified_gmt": "2022-07-12T16:57:08",
     "slug": "our-vision",
     "status": "publish",
     "type": "page",
@@ -46,12 +46,12 @@
         "plugin_version": "4.1.5.1",
         "editor_url": "https://test-digital-ca-gov.pantheonsite.io"
       },
-      "site_name": "digital.ca.gov",
-      "site_description": "Office of Digital Innovation",
+      "site_name": "innovation.ca.gov",
+      "site_description": "Office of Data &amp; Innovation",
       "site_url": "https://test-digital-ca-gov.pantheonsite.io",
       "canonical_url": "https://test-digital-ca-gov.pantheonsite.io/who-we-are/our-vision/",
       "page_title": "Our vision",
-      "page_description": "Office of Digital Innovation",
+      "page_description": "Office of Data &amp; Innovation",
       "page_social_image_url": "",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
@@ -60,9 +60,9 @@
       "meta_description": "We see a California where the state meets people where they are and everyone gets the services they need.",
       "meta_canonical_url": "https://test-digital-ca-gov.pantheonsite.io/who-we-are/our-vision/",
       "open_graph_title": "Our vision",
-      "open_graph_description": "Office of Digital Innovation",
+      "open_graph_description": "Office of Data &amp; Innovation",
       "twitter_title": "Our vision",
-      "twitter_description": "Office of Digital Innovation"
+      "twitter_description": "Office of Data &amp; Innovation"
     },
     "headless_categories": [],
     "headless_tags": [],
