@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-02-06T19:52:45",
-    "updated_date": "2023-02-06T19:52:45",
+    "updated_date": "2023-02-07T04:46:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2023-02-06T11:52:45",
     "date_gmt": "2023-02-06T19:52:45",
     "guid": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023.png",
-    "modified": "2023-02-06T11:52:45",
-    "modified_gmt": "2023-02-06T19:52:45",
+    "modified": "2023-02-06T20:46:06",
+    "modified_gmt": "2023-02-07T04:46:06",
     "slug": "odi-team-jan2023",
     "status": "inherit",
     "type": "attachment",
@@ -29,10 +29,12 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
-    "description": "<p class=\"attachment\"><a href='https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023.png'><img width=\"576\" height=\"341\" src=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-576x341.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-576x341.png 576w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-768x454.png 768w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023.png 859w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
+    "categories": [
+      1
+    ],
+    "description": "<p class=\"attachment\"><a href='https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023.png'><img width=\"576\" height=\"341\" src=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-576x341.png\" class=\"attachment-medium size-medium\" alt=\"ODI team on Zoom\" loading=\"lazy\" srcset=\"https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-576x341.png 576w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-768x454.png 768w, https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023.png 859w\" sizes=\"(max-width: 576px) 100vw, 576px\" /></a></p>\n",
     "caption": "",
-    "alt_text": "",
+    "alt_text": "ODI team on Zoom",
     "media_type": "image",
     "mime_type": "image/png",
     "media_details": {
