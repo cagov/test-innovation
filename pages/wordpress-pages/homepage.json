@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-11-09T13:26:02",
-    "updated_date": "2022-07-12T17:21:25",
+    "updated_date": "2023-02-07T04:49:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-digital-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-11-09T05:26:02",
     "date_gmt": "2021-11-09T13:26:02",
     "guid": "https://test-digital-ca-gov.pantheonsite.io/?page_id=113",
-    "modified": "2022-07-12T10:21:25",
-    "modified_gmt": "2022-07-12T17:21:25",
+    "modified": "2023-02-06T20:49:43",
+    "modified_gmt": "2023-02-07T04:49:43",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -97,19 +97,6 @@
         "featured": false
       },
       {
-        "id": 290,
-        "type": "full",
-        "path": "2022/04/Everybody-on-zoom.png",
-        "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/Everybody-on-zoom.png",
-        "file": "Everybody-on-zoom.png",
-        "width": 572,
-        "height": 336,
-        "mime_type": "image/png",
-        "source_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/Everybody-on-zoom.png",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
         "id": 430,
         "type": "large",
         "path": "2022/04/odi-hero-1024x649.webp",
@@ -119,6 +106,19 @@
         "height": 649,
         "mime_type": "image/webp",
         "source_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/odi-hero-1024x649.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 798,
+        "type": "full",
+        "path": "2023/02/odi-team-jan2023-1.png",
+        "wordpress_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-1.png",
+        "file": "odi-team-jan2023-1.png",
+        "width": 572,
+        "height": 338,
+        "mime_type": "image/png",
+        "source_url": "https://test-digital-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/odi-team-jan2023-1.png",
         "source_url_match": true,
         "featured": false
       }
