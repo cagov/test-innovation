@@ -2,6 +2,7 @@ const cagovBuildSystem = require("@cagov/11ty-build-system");
 const linkedom = require("linkedom");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const fs = require('fs');
+const pluginBookshop = require("@bookshop/eleventy-bookshop");
 
 //Replaces content to rendered
 const replaceContent = (item, searchValue, replaceValue) => {
@@ -14,6 +15,12 @@ const replaceContent = (item, searchValue, replaceValue) => {
 module.exports = function (eleventyConfig) {
   eleventyConfig.htmlTemplateEngine = "njk";
   const wordpressImagePath = "img/wordpress";
+
+  // CloudCannon component library integration
+  eleventyConfig.addPlugin(pluginBookshop({
+    bookshopLocations: ["_component-library"], /*1*/ /*2*/
+    pathPrefix: '', /*3*/
+  }));
 
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
@@ -242,7 +249,7 @@ module.exports = function (eleventyConfig) {
   return {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "md",
-    templateFormats: ["html", "njk", "11ty.js", "md"],
+    templateFormats: ["html", "njk", "11ty.js", "md", "liquid"],
     dir: {
       input: "pages",
       output: "_site",

@@ -4,6 +4,9 @@
   "description": "Office of Data and Innovation website",
   "main": "index.js",
   "devDependencies": {
+    "@bookshop/browser": "3.6.2",
+    "@bookshop/eleventy-engine": "3.6.2",
+    "@bookshop/generate": "3.6.2",
     "@open-wc/eslint-config": "^4.3.0",
     "@playwright/test": "^1.21.1",
     "@web/dev-server": "^0.1.17",
@@ -17,6 +20,7 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@bookshop/eleventy-bookshop": "3.6.2",
     "@cagov/11ty-build-system": "^1.0.0-beta.3",
     "@cagov/ds-accordion": "^2.0.0",
     "@cagov/ds-back-to-top": "^2.0.0",
