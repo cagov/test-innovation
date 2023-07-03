@@ -1,0 +1,5 @@
+<ol class="c-regulatory-list">
+  {% for item in content %}
+    {% bookshop "{{item._bookshop_name}}" bind: item %}
+  {% endfor %}
+</ol>

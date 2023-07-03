@@ -1,0 +1,21 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: "Accordion"
+  description:
+  icon: expand_more
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  body: 
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: Title 1
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit nisl, tincidunt dictum tortor et, maximus porttitor lectus. Proin luctus risus sit amet urna accumsan
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  body:
+    type: markdown

@@ -1,0 +1,38 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Feature-card"
+  description: 
+  icon: art_track
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  description:
+  image:
+  test: 
+  image_caption:
+  button:
+    text:
+    url:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: We’re making changes to better serve you
+  description: California has merged the three state cannabis authorities into a&nbsp;single,&nbsp;new Department of Cannabis Control.
+  image: https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1024x683.jpg
+  image_caption: Cannabis plant
+  button:
+    text: Learn more
+    url: https://cannabis.ca.gov/about-us/consolidation/
+
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  test: 
+    type: image
+  description:
+    type: html
+

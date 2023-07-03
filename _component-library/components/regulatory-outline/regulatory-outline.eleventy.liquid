@@ -1,0 +1,6 @@
+<ol class="c-regulatory-outline cagov-regulatory-outline">
+  {% for item in list %}
+    {% bookshop "{{item._bookshop_name}}" bind: item %}
+  {% endfor %}
+
+</ol>

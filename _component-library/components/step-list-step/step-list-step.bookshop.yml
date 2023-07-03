@@ -1,0 +1,25 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+  label: 'Step-list-step'
+  description: 
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title:
+  description:
+  descriptionHtml: 
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: Complete local permitting processes
+  description: Many cities and counties have rules and permitting for cannabis businesses. Some do not allow cannabis businesses. Make sure you set up your business in an area that allows commercial cannabis activity. Complete any permitting requirements your city or county requires before you apply for a state cannabis license.
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown 
+  descriptionHtml:
+    type: html

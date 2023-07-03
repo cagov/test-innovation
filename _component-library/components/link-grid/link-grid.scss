@@ -1,0 +1,23 @@
+.c-link-grid {
+
+}
+
+.cagov-grid,
+.cagov-grid .block-editor-block-list__layout {
+  display: grid;
+  grid-gap: var(--s-3, 1.5rem);
+}
+
+/* editor override */
+.cagov-grid .block-editor-block-list__block {
+  margin: 0;
+}
+
+@supports (width: calc(min(250px, 100%))) {
+  .cagov-grid,
+.cagov-grid .block-editor-block-list__layout {
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
